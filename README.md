@@ -13,6 +13,7 @@ An AI-assisted neurosurgical planning framework for 3D brain tumor analysis, fun
 - Risk-Aware Path Planning: Generates and ranks candidate surgical trajectories using path cost and anatomical safety constraints.
 - Interactive 3D Visualization: Displays brain surface, tumor structures, surgical target, and planned paths.
 - FastAPI Backend: Provides API endpoints for MRI upload, processing, visualization, and downloadable outputs.
+- Strong Segmentation Performance: The model achieved a validation Dice score of approximately 0.89.
 
 ---
 
@@ -53,6 +54,7 @@ The framework follows a modular medical-imaging pipeline:
    - Segmentation mask and ZIP packaging.
 
 ---
+
 ## Repository Structure
 
 | File/Folder | Description |
@@ -72,6 +74,7 @@ The framework follows a modular medical-imaging pipeline:
 | `outputs/` | Generated segmentation masks, meshes, visualizations, and ZIP results. |
 | `Smart-Pre-Surgery-Planning-master.rar` | Compressed web frontend package for the project interface and user interaction layer. |
 | `requirements.txt` | Python dependencies. |
+
 ---
 
 ## Dataset Information
@@ -85,6 +88,7 @@ The project uses the BraTS 2020 dataset for brain tumor analysis and segmentatio
 - Task: Multi-modal brain tumor segmentation and surgical planning support.
 
 ### MRI Modalities Used
+
 | Modality | Purpose |
 | :--- | :--- |
 | `T1` | Structural anatomical information |
@@ -215,4 +219,13 @@ Supervisor: Prof. Dr. Hanaa Salem Marie
 
 This project was prepared at Delta University for Sciences and Technology, Faculty of Artificial Intelligence, as part of:
 
-**AI317 - Work-based Professional Project in Artificial Intelligence (II)**  
+**AI317 - Work-based Professional Project in Artificial Intelligence (II)**
+
+---
+
+## Notes
+
+- The project uses BraTS 2020 multi-modal MRI data.
+- The final segmentation performance reached a validation Dice score of approximately 0.89.
+- The frontend package is stored as a compressed RAR archive.
+- The trained model file should be uploaded using Git LFS if its size exceeds GitHub regular file limits.
