@@ -56,6 +56,8 @@ The framework follows a modular medical-imaging pipeline:
 
 ## Repository Structure
 
+## Repository Structure
+
 | File/Folder | Description |
 | :--- | :--- |
 | `app/` | Core AI and backend modules. |
@@ -66,9 +68,10 @@ The framework follows a modular medical-imaging pipeline:
 | `app/pathplanning.py` | Candidate path generation, A* search, scoring, and ranking. |
 | `app/visualization.py` | 2D/3D rendering, mesh generation, and interactive HTML output. |
 | `app/clip_filter.py` | MRI input validation utilities. |
-| `models/` | Trained model weights and notebooks. |
-| `models/SegResNet_BraTS_best.pth` | Trained SegResNet model used for segmentation. |
-| `data/` | Input MRI files, uploaded volumes, or auxiliary data. |
+| `models/` | Trained model weights and training assets. |
+| `models/SegResNet_BraTS_best.pth` | Trained SegResNet model used in the deployed segmentation pipeline. |
+| `models/Training_Notebook.ipynb` | Training and experimentation notebook for model development, monitoring, and evaluation. |
+| `data/` | Input MRI files, uploaded volumes, atlas resources, or auxiliary data. |
 | `outputs/` | Generated segmentation masks, meshes, visualizations, and ZIP results. |
 | `requirements.txt` | Python dependencies. |
 
