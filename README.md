@@ -53,9 +53,6 @@ The framework follows a modular medical-imaging pipeline:
    - Segmentation mask and ZIP packaging.
 
 ---
-
-## Repository Structure
-
 ## Repository Structure
 
 | File/Folder | Description |
@@ -73,8 +70,8 @@ The framework follows a modular medical-imaging pipeline:
 | `models/Training_Notebook.ipynb` | Training and experimentation notebook for model development, monitoring, and evaluation. |
 | `data/` | Input MRI files, uploaded volumes, atlas resources, or auxiliary data. |
 | `outputs/` | Generated segmentation masks, meshes, visualizations, and ZIP results. |
+| `Smart-Pre-Surgery-Planning-master.rar` | Compressed web frontend package for the project interface and user interaction layer. |
 | `requirements.txt` | Python dependencies. |
-
 ---
 
 ## Dataset Information
