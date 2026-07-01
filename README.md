@@ -216,4 +216,3 @@ Supervisor: Prof. Dr. Hanaa Salem Marie
 This project was prepared at Delta University for Sciences and Technology, Faculty of Artificial Intelligence, as part of:
 
 **AI317 - Work-based Professional Project in Artificial Intelligence (II)**  
-**Spring Semester 2025/2026**
