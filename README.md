@@ -228,4 +228,3 @@ This project was prepared at Delta University for Sciences and Technology, Facul
 - The project uses BraTS 2020 multi-modal MRI data.
 - The final segmentation performance reached a validation Dice score of approximately 0.89.
 - The frontend package is stored as a compressed RAR archive.
-- The trained model file should be uploaded using Git LFS if its size exceeds GitHub regular file limits.
